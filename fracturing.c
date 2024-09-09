@@ -31,7 +31,7 @@ double askForUserInput() {
     return value;
 }
 
-//calculating distance, perimeter, area, width, height
+//calculating distance
 double calculateDistance() {
     double x1 = askForUserInput();
     double y1 = askForUserInput();
@@ -46,35 +46,35 @@ double calculateDistance() {
 
     return distance;
 }
-
+//calculating perimeter
 double calculatePerimeter() {
     double distance = calculateDistance();
     double perimeter = 2 * PI * distance;
     printf("The perimeter of the circle is %lf\n", perimeter);
 
-    return perimeter;
+    return 2;
 }
-
+//calculating area
 double calculateArea() {
     double distance = calculateDistance();
     double area = PI * pow(distance, 2);
     printf("The area of the circle is %lf\n", area);
 
-    return area;
+    return 1;
 }
-
+//calculating width
 double calculateWidth() {
     double distance = calculateDistance();
     double width = 2 * distance;
     printf("The width of the circle is %lf\n", width);
 
-    return width;
+    return 1;
 }
-
+//calculating height
 double calculateHeight() {
     double distance = calculateDistance();
     double height = 2 * distance;
     printf("The height of the circle is %lf\n", height);
 
-    return height;
+    return 1;
 }
