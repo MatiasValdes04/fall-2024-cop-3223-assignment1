@@ -1,4 +1,5 @@
-//headers
+//Matias Valdes
+//5534049
 #include <stdio.h>
 #include <math.h>
 
